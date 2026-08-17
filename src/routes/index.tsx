@@ -30,10 +30,22 @@ function Index() {
   return (
     <main className="relative min-h-screen overflow-hidden">
       <Hero />
-      <Projects />
-      <Services />
-      <Process />
-      <CTA />
+      <SectionTransition tone="primary" />
+      <Reveal>
+        <Projects />
+      </Reveal>
+      <SectionTransition tone="accent" />
+      <Reveal>
+        <Services />
+      </Reveal>
+      <SectionTransition tone="pink" />
+      <Reveal>
+        <Process />
+      </Reveal>
+      <SectionTransition tone="primary" />
+      <Reveal>
+        <CTA />
+      </Reveal>
       <footer className="border-t border-border px-5 py-8 text-center text-xs text-muted-foreground sm:px-8">
         © {new Date().getFullYear()} — сделано через вайбкодинг
       </footer>
