@@ -14,7 +14,7 @@ export function Process() {
         <div className="relative mt-14">
           <div
             aria-hidden
-            className="bg-gradient-brand absolute top-0 bottom-0 left-[15px] w-px opacity-60 md:top-[15px] md:right-0 md:bottom-auto md:left-0 md:h-px md:w-full"
+            className="bg-gradient-brand absolute top-5 bottom-0 left-[15px] w-px opacity-60 md:top-[15px] md:right-0 md:bottom-auto md:left-0 md:h-px md:w-full"
           />
 
           <ol className="grid grid-cols-1 gap-8 md:grid-cols-4 md:gap-6">
