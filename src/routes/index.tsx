@@ -5,6 +5,8 @@ import { Projects } from "@/components/landing/Projects";
 import { Services } from "@/components/landing/Services";
 import { Process } from "@/components/landing/Process";
 import { CTA } from "@/components/landing/CTA";
+import { Reveal } from "@/components/landing/Reveal";
+import { SectionTransition } from "@/components/landing/SectionTransition";
 
 const title = "Вайбкодер — AI-продукты, лендинги и MVP под ключ";
 const description =
@@ -28,10 +30,22 @@ function Index() {
   return (
     <main className="relative min-h-screen overflow-hidden">
       <Hero />
-      <Projects />
-      <Services />
-      <Process />
-      <CTA />
+      <SectionTransition tone="primary" />
+      <Reveal>
+        <Projects />
+      </Reveal>
+      <SectionTransition tone="accent" />
+      <Reveal>
+        <Services />
+      </Reveal>
+      <SectionTransition tone="pink" />
+      <Reveal>
+        <Process />
+      </Reveal>
+      <SectionTransition tone="primary" />
+      <Reveal>
+        <CTA />
+      </Reveal>
       <footer className="border-t border-border px-5 py-8 text-center text-xs text-muted-foreground sm:px-8">
         © {new Date().getFullYear()} — сделано через вайбкодинг
       </footer>
