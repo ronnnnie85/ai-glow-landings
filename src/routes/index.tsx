@@ -5,6 +5,8 @@ import { Projects } from "@/components/landing/Projects";
 import { Services } from "@/components/landing/Services";
 import { Process } from "@/components/landing/Process";
 import { CTA } from "@/components/landing/CTA";
+import { Reveal } from "@/components/landing/Reveal";
+import { SectionTransition } from "@/components/landing/SectionTransition";
 
 const title = "Вайбкодер — AI-продукты, лендинги и MVP под ключ";
 const description =
