@@ -21,7 +21,7 @@ export function CTA() {
               href="https://t.me/kavwabanger"
               target="_blank"
               rel="noreferrer"
-              className="glow bg-gradient-brand inline-flex w-full items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-transform hover:scale-[1.03] sm:w-auto"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-purple-dark px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-all hover:scale-[1.03] hover:brightness-95 sm:w-auto"
             >
               <Send className="h-4 w-4" />
               Telegram
