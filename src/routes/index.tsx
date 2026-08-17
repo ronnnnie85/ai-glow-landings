@@ -46,8 +46,9 @@ function Index() {
       <Reveal>
         <CTA />
       </Reveal>
-      <footer className="border-t border-border px-5 py-8 text-center text-xs text-muted-foreground sm:px-8">
-        © {new Date().getFullYear()} — сделано через вайбкодинг
+      <footer className="flex flex-col items-center justify-between gap-3 border-t border-border px-5 py-8 text-xs text-muted-foreground sm:flex-row sm:px-8">
+        <span>© Вайбкодинг. Все права защищены.</span>
+        <span>Сделано через вайбкодинг</span>
       </footer>
     </main>
   );
