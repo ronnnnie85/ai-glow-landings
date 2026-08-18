@@ -1,14 +1,85 @@
-# Welcome to your Lovable project
+# VibeCode AI Studio
+
+Создай современный адаптивный одностраничный сайт-портфолио (Landing Page) для вайбкодера в тёмной теме, вдохновленный стилем премиальных AI-продуктов. Используй референс.
+
+Общий стиль и UI:
+
+Цветовая палитра: Глубокий тёмный фон (#0B0C10 или #0D0D12), светлый контрастный текст, неоновые градиентные акценты (фиолетовый #8A2BE2, ярко-голубой #00D2FF, розовый glow-эффект).
+
+Стиль элементов: Glassmorphic-карточки (полупрозрачный тёмный фон с размытием backdrop-blur и тонкой градиентной рамкой), скругленные углы (rounded-2xl), аккуратные pill-кнопки.
+
+Адаптивность: Mobile-first подход. Все сетки перестраиваются в 1 колонку на смартфонах.
+
+Структура и содержание секций:
+
+1. Hero-секция
+
+Заголовок: «Создаю AI-продукты через вайбкодинг» (выдели слова «AI-продукты» ярким градиентом).
+
+Подзаголовок: «Использую мощь искусственного интеллекта для быстрой разработки стильных лендингов и веб-сервисов. Экономьте время и ресурсы, получая готовый продукт в кратчайшие сроки.»
+
+Кнопки:
+
+Первичная (с ярким градиентным фоном): «Посмотреть проекты» (скролл к портфолио).
+
+Вторичная (стеклянная с контуром): «Связаться».
+
+2. Секция «Избранные проекты»
+Сетка карточек (1 колонка на моб., 3 на десктопе):
+
+StudyFlow — AI-платформа для персонализированного обучения. Теги: React, Python, OpenAI, Next.js.
+
+НейроАналитик — AI-сервис для автоматического анализа данных и отчетов. Теги: Vue, Node.js, AI Analytics.
+
+LaunchPro — Конверсионный лендинг для быстрого запуска продукта. Теги: Tailwind, TypeScript, UI/UX.
+
+Каждая карточка включает: плейсхолдер скриншота с легким свечением, заголовок, краткое описание (1–2 предложения) и плашки-теги технологий.
+
+3. Секция «Что я делаю»
+Сетка из 4 карточек с иконками (Lucide icons / эмодзи):
+
+🚀 MVP за неделю: Быстро создам минимально жизнеспособный продукт. Выгода: Проверьте гипотезу за считанные дни с минимальными затратами.
+
+🤖 AI-автоматизация: Внедрю ИИ-инструменты в ваши процессы. Выгода: Освободите время от рутины и повысьте эффективность.
+
+🎨 UI/UX с вайбкодингом: Разработаю интуитивный интерфейс. Выгода: Повысьте конверсию и вовлеченность пользователей.
+
+🔗 Интеграции: Подключу сторонние сервисы и API. Выгода: Расширьте функциональность вашего продукта.
+
+4. Секция «Как я работаю»
+Интерактивный Timeline (горизонтальный на десктопе, вертикальный на мобильных):
+
+01. Погружаюсь в задачу — Изучаю ваши потребности и формирую концепт.
+
+02. Создаю с ИИ — Быстро разрабатываю прототип и базовый функционал.
+
+03. Тестирую и улучшаю — Проверяю работоспособность и полирую UI.
+
+04. Запускаю и масштабирую — Публикую проект и помогаю с развитием.
+
+5. CTA-блок (Призыв к действию)
+
+Заголовок: «Готовы создать свой следующий AI-продукт?»
+
+Подзаголовок: «Напишите мне, и мы обсудим вашу идею уже сегодня.»
+
+Кнопки:
+
+«Telegram» (ссылка [https://t.me/kavwabanger](https://t.me/kavwabanger), иконка Telegram).
+
+«Написать Email» (ссылка mailto:rovanov55@yandex.ru, иконка Mail).
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://ai-glow-landings.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/a4b14edc-72af-477b-a598-2cf9b526846f).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +91,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
